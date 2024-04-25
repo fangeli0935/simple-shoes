@@ -1,0 +1,2 @@
+ALTER TABLE Cliente ADD CONSTRAINT [UK_Cliente_Cpf] UNIQUE (Cpf);
+GO
