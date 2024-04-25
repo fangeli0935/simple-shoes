@@ -1,3 +1,6 @@
+DROP TABLE IF EXISTS Cliente
+GO
+
 CREATE TABLE Cliente (
      Codigo              tinyint      NOT NULL
    , Nome                varchar(256) NOT NULL
